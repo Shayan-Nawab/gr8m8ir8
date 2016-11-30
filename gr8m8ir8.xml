@@ -1,1 +1,18 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="movement_leftmotor" id="100" inline="true" x="324" y="36">
+    <value name="MOVLEFT">
+      <block type="math_number" id="107">
+        <field name="NUM">1360</field>
+      </block>
+    </value>
+    <next>
+      <block type="robot_delay" id="115" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="122">
+            <field name="NUM">5000</field>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+</xml>
